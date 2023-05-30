@@ -23,8 +23,6 @@ import ViewCarouselIcon from '@mui/icons-material/ViewCarousel';
 import './Assets/styles.css'
 
 
-
-
 function MensCard() {
 
 
