@@ -22,7 +22,7 @@ function App() {
       <Header/>
     <Routes>
       <Route path='/' exact={true} element={<Welcome/>}/>
-      <Route path='/mattelsachallenge' element={<Welcome/>}/>
+      <Route path='/mattelsaChallenge' element={<Welcome/>}/>
       <Route path="/Mens" element={<Mens/>}/>
       <Route path="/woman" element={<Woman/>}/>
       <Route path="/task/:id" element={<Task/>}/>
