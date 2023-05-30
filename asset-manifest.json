@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/mattelsaChallenge/static/css/main.9c9936d8.css",
-    "main.js": "/mattelsaChallenge/static/js/main.21151d4a.js",
+    "main.css": "/mattelsaChallenge/static/css/main.f955c0a1.css",
+    "main.js": "/mattelsaChallenge/static/js/main.253ee629.js",
+    "static/media/welcomeBackground.jpg": "/mattelsaChallenge/static/media/welcomeBackground.3303c1fc4965f9d3eb60.jpg",
     "static/media/men.jpg": "/mattelsaChallenge/static/media/men.8532ff62e48c97c78c69.jpg",
     "static/media/woman.jpg": "/mattelsaChallenge/static/media/woman.f7235b80de19660e1778.jpg",
     "static/media/letters.jpg": "/mattelsaChallenge/static/media/letters.7fc1a580b07592ef08f5.jpg",
@@ -62,11 +63,11 @@
     "static/media/fundaCelular.jpg": "/mattelsaChallenge/static/media/fundaCelular.36b1723a409dd587a369.jpg",
     "static/media/mediasNegras.jpg": "/mattelsaChallenge/static/media/mediasNegras.a441bca5a4c27555189d.jpg",
     "index.html": "/mattelsaChallenge/index.html",
-    "main.9c9936d8.css.map": "/mattelsaChallenge/static/css/main.9c9936d8.css.map",
-    "main.21151d4a.js.map": "/mattelsaChallenge/static/js/main.21151d4a.js.map"
+    "main.f955c0a1.css.map": "/mattelsaChallenge/static/css/main.f955c0a1.css.map",
+    "main.253ee629.js.map": "/mattelsaChallenge/static/js/main.253ee629.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c9936d8.css",
-    "static/js/main.21151d4a.js"
+    "static/css/main.f955c0a1.css",
+    "static/js/main.253ee629.js"
   ]
 }
