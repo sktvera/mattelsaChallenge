@@ -1,0 +1,44 @@
+.containerWelcome{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url("https://www.mattelsa.net/media/Home/ppaldesktop26052023.jpg");
+}
+
+.itemWelcome{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.containerWelcome .itemWelcome .buttonWelcome{
+    font-size: 30px;
+    background-color:#ffffff00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+}
+
+.containerWelcome .itemWelcome .buttonWelcome:hover{
+    color: black;
+}
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+@media (max-width:550px) {
+	.containerWelcome .itemWelcome label{
+       text-align: center;
+        font-size: 2em;
+    }
+}
+
+

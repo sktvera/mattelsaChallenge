@@ -1,0 +1,7 @@
+.bodyCard .tittles p:first-child{
+    font-weight: bold;
+}
+
+.bodyCard .tittles .cardItem{
+    font-size: 14px;
+}
