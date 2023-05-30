@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mattelsaChallenge/static/css/main.f955c0a1.css",
+    "main.css": "/mattelsaChallenge/static/css/main.790953db.css",
     "main.js": "/mattelsaChallenge/static/js/main.253ee629.js",
     "static/media/welcomeBackground.jpg": "/mattelsaChallenge/static/media/welcomeBackground.3303c1fc4965f9d3eb60.jpg",
     "static/media/men.jpg": "/mattelsaChallenge/static/media/men.8532ff62e48c97c78c69.jpg",
@@ -63,11 +63,11 @@
     "static/media/fundaCelular.jpg": "/mattelsaChallenge/static/media/fundaCelular.36b1723a409dd587a369.jpg",
     "static/media/mediasNegras.jpg": "/mattelsaChallenge/static/media/mediasNegras.a441bca5a4c27555189d.jpg",
     "index.html": "/mattelsaChallenge/index.html",
-    "main.f955c0a1.css.map": "/mattelsaChallenge/static/css/main.f955c0a1.css.map",
+    "main.790953db.css.map": "/mattelsaChallenge/static/css/main.790953db.css.map",
     "main.253ee629.js.map": "/mattelsaChallenge/static/js/main.253ee629.js.map"
   },
   "entrypoints": [
-    "static/css/main.f955c0a1.css",
+    "static/css/main.790953db.css",
     "static/js/main.253ee629.js"
   ]
 }
