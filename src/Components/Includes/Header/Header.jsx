@@ -9,6 +9,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import RedeemIcon from '@mui/icons-material/Redeem';
 import Avatar from '@mui/material/Avatar';
 import colombia from './Assets/Img/colombia.jpg'
+import Hidden from '@mui/material/Hidden';
 import './Assets/styles.css'
 function Header() {
   return (
@@ -88,7 +89,9 @@ function Header() {
             </Link>
             </div> 
            
+            <Hidden  only={['xs','sm']}>
 
+           
             <div className='userMenu'>
               <AccountCircleIcon className='userMenu-item'/>
               <SearchIcon className='userMenu-item'/>
@@ -99,7 +102,7 @@ function Header() {
                <p>COP</p>
               </div>
             </div>
-           
+            </Hidden>
           </nav>
         
         </Toolbar>

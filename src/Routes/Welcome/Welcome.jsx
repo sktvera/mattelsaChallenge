@@ -4,11 +4,8 @@ import WelcomeImages from'../../Components/WelcomeImages/WelcomeImages'
 const Welcome = () => {
   return (
     <div>
-
       <WelcomeHome/>
       <WelcomeImages/>
-      
-
     </div>
   )
 }

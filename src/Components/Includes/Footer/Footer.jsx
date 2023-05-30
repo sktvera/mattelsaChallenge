@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import QueueMusicIcon from '@mui/icons-material/QueueMusic';
+import Hidden from '@mui/material/Hidden';
 import './Assets/styles.css'
 
 function Footer(props) {
@@ -36,7 +37,7 @@ function Footer(props) {
   <li onClick={()=>window.open('https://www.mattelsa.net/preguntas-frecuentes')}>Preguntas frecuentes</li>
 </ul>
 
-<div>
+<div className='iconsSocialMedia'>
   <p>SÍGUENOS</p>
 
   <FacebookIcon
@@ -64,14 +65,16 @@ onClick={()=>window.open('https://open.spotify.com/user/mattelsa_net')}
 </div>
 
 </div>
+<Hidden only={['xs']}> 
 <div> <Typography variant="body2" color="text.secondary" align="center" {...props}>
    {'Copyright © '}
-   <Link color="inherit" href="https://github.com/sktvera">
-   PRIMERA ENTREGA MERCADEO DIGITAL
+   <Link color="inherit" href="#">
+   ULTIMA ENTREGA MERCADEO DIGITAL
    </Link>{' '}
    {new Date().getFullYear()}
    {'All rights reserved Juan Pablo Gomez Quiceno, Isabella Hernandez, Vanesa Cervantes .'}
  </Typography></div>
+ </Hidden>
   </div>
   );
 }

@@ -1,6 +1,7 @@
 .containedFooter{
     display: grid;
     grid-template-rows: 90% 10%;
+
 }
 .body-containedFooter{
     height: 160px;
@@ -23,4 +24,36 @@ ul li:first-child{
 .iconsSocialMedia{
     cursor: pointer;
     margin: 0px 5px 0px 5px;
+}
+
+
+@media (max-width:550px) {
+	.containedFooter ul li{
+      font-size: 10px;
+    }
+    .iconsSocialMedia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .iconsSocialMedia p{
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .body-containedFooter{
+        height: 160px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .iconsSocialMedia{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
 }
